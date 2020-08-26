@@ -1,0 +1,13 @@
+C:\Users\sweet\OneDrive\Documents\fall2020Homework\DGM1610_Fall2020\ExperimentalApp\ExperimentalApp\bin\Debug\netcoreapp3.1\ExperimentalApp.exe
+C:\Users\sweet\OneDrive\Documents\fall2020Homework\DGM1610_Fall2020\ExperimentalApp\ExperimentalApp\bin\Debug\netcoreapp3.1\ExperimentalApp.deps.json
+C:\Users\sweet\OneDrive\Documents\fall2020Homework\DGM1610_Fall2020\ExperimentalApp\ExperimentalApp\bin\Debug\netcoreapp3.1\ExperimentalApp.runtimeconfig.json
+C:\Users\sweet\OneDrive\Documents\fall2020Homework\DGM1610_Fall2020\ExperimentalApp\ExperimentalApp\bin\Debug\netcoreapp3.1\ExperimentalApp.runtimeconfig.dev.json
+C:\Users\sweet\OneDrive\Documents\fall2020Homework\DGM1610_Fall2020\ExperimentalApp\ExperimentalApp\bin\Debug\netcoreapp3.1\ExperimentalApp.dll
+C:\Users\sweet\OneDrive\Documents\fall2020Homework\DGM1610_Fall2020\ExperimentalApp\ExperimentalApp\bin\Debug\netcoreapp3.1\ExperimentalApp.pdb
+C:\Users\sweet\OneDrive\Documents\fall2020Homework\DGM1610_Fall2020\ExperimentalApp\ExperimentalApp\obj\Debug\netcoreapp3.1\ExperimentalApp.csprojAssemblyReference.cache
+C:\Users\sweet\OneDrive\Documents\fall2020Homework\DGM1610_Fall2020\ExperimentalApp\ExperimentalApp\obj\Debug\netcoreapp3.1\ExperimentalApp.AssemblyInfoInputs.cache
+C:\Users\sweet\OneDrive\Documents\fall2020Homework\DGM1610_Fall2020\ExperimentalApp\ExperimentalApp\obj\Debug\netcoreapp3.1\ExperimentalApp.AssemblyInfo.cs
+C:\Users\sweet\OneDrive\Documents\fall2020Homework\DGM1610_Fall2020\ExperimentalApp\ExperimentalApp\obj\Debug\netcoreapp3.1\ExperimentalApp.csproj.CoreCompileInputs.cache
+C:\Users\sweet\OneDrive\Documents\fall2020Homework\DGM1610_Fall2020\ExperimentalApp\ExperimentalApp\obj\Debug\netcoreapp3.1\ExperimentalApp.dll
+C:\Users\sweet\OneDrive\Documents\fall2020Homework\DGM1610_Fall2020\ExperimentalApp\ExperimentalApp\obj\Debug\netcoreapp3.1\ExperimentalApp.pdb
+C:\Users\sweet\OneDrive\Documents\fall2020Homework\DGM1610_Fall2020\ExperimentalApp\ExperimentalApp\obj\Debug\netcoreapp3.1\ExperimentalApp.genruntimeconfig.cache

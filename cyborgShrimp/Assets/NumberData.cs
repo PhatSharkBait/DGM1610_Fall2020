@@ -5,10 +5,11 @@ using UnityEngine;
 
 public class NumberData : MonoBehaviour
 {
+    public string test = "working.";
     // Start is called before the first frame update
     void Start()
     {
-        Console.WriteLine("Your Script is working");
+        Debug.Log("Your Script is " + test);
     }
 
     // Update is called once per frame

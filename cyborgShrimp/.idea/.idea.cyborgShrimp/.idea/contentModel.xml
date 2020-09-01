@@ -7,7 +7,9 @@
     <e p="C:\Users\sweet\OneDrive\Documents\fall2020Homework\DGM1610_Fall2020\cyborgShrimp" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
-        <e p="NumberData.cs" t="Include" />
+        <e p="Scripts" t="Include">
+          <e p="MoverScript.cs" t="Include" />
+        </e>
       </e>
       <e p="cyborgShrimp.sln" t="IncludeFlat" />
       <e p="obj" t="ExcludeRecursive" />

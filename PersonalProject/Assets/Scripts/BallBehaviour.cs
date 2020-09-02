@@ -1,12 +1,14 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Vector3 = System.Numerics.Vector3;
 
 public class BallBehaviour : MonoBehaviour
 {
     public Rigidbody ball;
     public float spinSpeed;
-    private float yRotation = 0;
+    private float zRotation = 0;
+    private float xRotation = 0;
     // Start is called before the first frame update
     void Start()
     {
@@ -16,7 +18,9 @@ public class BallBehaviour : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        yRotation+= spinSpeed;
-        ball.rotation = Quaternion.Euler(0, yRotation, 0);
+        zRotation += Input.GetAxis("Horizontal") * spinSpeed * Time.deltaTime;
+        xRotation += Input.GetAxis("Vertical") * spinSpeed * Time.deltaTime;
+        ball.rotation  = Quaternion.Euler(xRotation, 0, zRotation);
+        ball.velocity = new UnityEngine.Vector3(xRotation, 0, -zRotation);
     }
 }

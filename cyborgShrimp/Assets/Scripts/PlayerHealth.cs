@@ -1,13 +1,14 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Globalization;
 using TMPro;
 using UnityEngine;
 
 public class PlayerHealth : MonoBehaviour
 {
-    public int maxHealth;
-    public int currentHealth;
+    public float maxHealth;
+    public float currentHealth;
     public TextMesh hitpointCounter;
     
     // Start is called before the first frame update
@@ -24,6 +25,6 @@ public class PlayerHealth : MonoBehaviour
             currentHealth--;
         }
 
-        hitpointCounter.text = currentHealth.ToString();
+        hitpointCounter.text = currentHealth.ToString(CultureInfo.CurrentCulture);
     }
 }

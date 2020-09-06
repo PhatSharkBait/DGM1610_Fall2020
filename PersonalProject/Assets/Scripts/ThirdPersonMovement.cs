@@ -7,17 +7,21 @@ public class ThirdPersonMovement : MonoBehaviour
     //I watched a video that showed me how to do this. I did my best to understand everything they did an why.
     public CharacterController controller;
     public Transform cam;
+    public Rigidbody playerPhysics;
     
-    public float speed = 6f;
+    public float speed = 10f;
+    
 
     void Update()
     {
         //controlled with arrow keys or WASD
         float horizontal = Input.GetAxisRaw("Horizontal");
         float vertical = Input.GetAxisRaw("Vertical");
-        
+
         //movement direction from inputs
-        Vector3 direction = new Vector3(horizontal, 0f, vertical).normalized;
+        Vector3 direction = playerPhysics.velocity;
+        direction.x = horizontal;
+        direction.z = vertical;
         
         if (direction.magnitude >= 0.1f)
         {

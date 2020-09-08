@@ -9,7 +9,7 @@ public class ThirdPersonMovement : MonoBehaviour
     public Transform cam;
     public Rigidbody playerPhysics;
     
-    public float speed = 10f;
+    public float speed = 100f;
     
 
     void Update()
@@ -30,7 +30,10 @@ public class ThirdPersonMovement : MonoBehaviour
             
             //convert rotation to direction and move using the controller
             Vector3 moveDir = Quaternion.Euler(0f, targetAngle, 0f) * Vector3.forward;
-            controller.Move(moveDir.normalized * (speed * Time.deltaTime));
+            //controller.Move(moveDir.normalized * (speed * Time.deltaTime));
+            
+            playerPhysics.AddForce(moveDir.normalized * (speed * Time.deltaTime));
+
         }
 
     }

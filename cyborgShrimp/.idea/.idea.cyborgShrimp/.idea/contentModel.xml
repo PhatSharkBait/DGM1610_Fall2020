@@ -9,6 +9,7 @@
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
           <e p="CharacterMover.cs" t="Include" />
+          <e p="HealthPowerUp.cs" t="Include" />
           <e p="MoverScript.cs" t="Include" />
           <e p="PlayerHealth.cs" t="Include" />
           <e p="PlayerScore.cs" t="Include" />

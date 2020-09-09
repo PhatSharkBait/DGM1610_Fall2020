@@ -25,6 +25,11 @@ public class PlayerHealth : MonoBehaviour
             currentHealth--;
         }
 
+        if (currentHealth > maxHealth)
+        {
+            currentHealth = maxHealth;
+        }
+
         hitpointCounter.text = currentHealth.ToString(CultureInfo.CurrentCulture);
     }
 }

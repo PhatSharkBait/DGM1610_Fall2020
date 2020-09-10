@@ -21,9 +21,9 @@
   <component name="ChangeListManager">
     <list default="true" id="efdb7f92-c03c-4f07-b974-912c1abed213" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.PersonalProject/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PersonalProject/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.PersonalProject/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PersonalProject/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.PersonalProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PersonalProject/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BallBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BallBehaviour.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,14 +34,16 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Jump.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ThirdPersonMovement.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/Assets/Scripts/GemBehavior.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/BallBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ThirdPersonMovement.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/GemBehavior.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Jump.cs" />
       </list>
     </option>
   </component>
@@ -100,6 +102,7 @@
       <workItem from="1599416156817" duration="1472000" />
       <workItem from="1599541001052" duration="1092000" />
       <workItem from="1599593112177" duration="637000" />
+      <workItem from="1599768797766" duration="2122000" />
     </task>
     <servers />
   </component>

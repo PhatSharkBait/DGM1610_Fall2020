@@ -22,5 +22,6 @@ public class BallBehaviour : MonoBehaviour
         xRotation += Input.GetAxis("Vertical") * spinSpeed * Time.deltaTime;
         ball.rotation  = Quaternion.Euler(xRotation, 0, zRotation);
         ball.velocity = new UnityEngine.Vector3(xRotation, 0, -zRotation);
+
     }
 }

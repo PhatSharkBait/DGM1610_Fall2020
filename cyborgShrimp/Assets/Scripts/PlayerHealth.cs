@@ -2,7 +2,6 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Globalization;
-using TMPro;
 using UnityEngine;
 
 public class PlayerHealth : MonoBehaviour
@@ -30,6 +29,6 @@ public class PlayerHealth : MonoBehaviour
             currentHealth = maxHealth;
         }
 
-        hitpointCounter.text = currentHealth.ToString(CultureInfo.CurrentCulture);
+        hitpointCounter.text = currentHealth.ToString(CultureInfo.CurrentCulture) + "/" + maxHealth.ToString(CultureInfo.CurrentCulture);
     }
 }

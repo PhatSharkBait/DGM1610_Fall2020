@@ -22,7 +22,6 @@
     <list default="true" id="45a45f81-9a18-43d2-9cd2-cd356d7cc7b3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.cyborgShrimp/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.cyborgShrimp/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.cyborgShrimp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.cyborgShrimp/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerScore.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerScore.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +44,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/SpeedPowerUp.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerScore.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AmmoPowerUp.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PowerUp.cs" />
       </list>
     </option>
   </component>
@@ -105,6 +105,7 @@
       <workItem from="1599771682742" duration="1149000" />
       <workItem from="1599773302757" duration="75000" />
       <workItem from="1599774399625" duration="408000" />
+      <workItem from="1599874453680" duration="236000" />
     </task>
     <servers />
   </component>

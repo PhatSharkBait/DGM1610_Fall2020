@@ -20,8 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="45a45f81-9a18-43d2-9cd2-cd356d7cc7b3" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../PersonalProject/.idea/.idea.PersonalProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PersonalProject/.idea/.idea.PersonalProject/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.cyborgShrimp/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.cyborgShrimp/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.cyborgShrimp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.cyborgShrimp/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MoverScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MoverScript.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerScore.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerScore.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,13 +41,13 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/NumberData.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/MoverScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerHealth.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/HealthPowerUp.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SpeedPowerUp.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerScore.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AmmoPowerUp.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PowerUp.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MoverScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerScore.cs" />
       </list>
     </option>
   </component>
@@ -106,6 +109,7 @@
       <workItem from="1599773302757" duration="75000" />
       <workItem from="1599774399625" duration="408000" />
       <workItem from="1599874453680" duration="705000" />
+      <workItem from="1600205442151" duration="180000" />
     </task>
     <servers />
   </component>

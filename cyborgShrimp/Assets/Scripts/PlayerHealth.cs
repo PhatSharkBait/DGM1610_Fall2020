@@ -9,14 +9,11 @@ public class PlayerHealth : MonoBehaviour
     public float maxHealth;
     public float currentHealth;
     public TextMesh hitpointCounter;
-    
-    // Start is called before the first frame update
     void Start()
     {
         currentHealth = maxHealth;
     }
-
-    // Update is called once per frame
+    
     void Update()
     {
         if (Input.GetButtonUp("Submit"))

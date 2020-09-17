@@ -20,7 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b245bed8-d6ef-4860-a8dd-94d15dd62baf" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../cyborgShrimp/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/../cyborgShrimp/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Prototype1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Prototype1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Prototype 1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Prototype 1.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,8 +38,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/FollowPlayer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" />
       </list>
     </option>
   </component>
@@ -82,6 +84,7 @@
       <updated>1600218977088</updated>
       <workItem from="1600218989715" duration="68000" />
       <workItem from="1600219157463" duration="1626000" />
+      <workItem from="1600305637533" duration="1243000" />
     </task>
     <servers />
   </component>

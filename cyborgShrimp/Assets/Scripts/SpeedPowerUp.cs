@@ -5,11 +5,11 @@ using UnityEngine;
 
 public class SpeedPowerUp : MonoBehaviour
 {
-    public MoverScript player;
+    public CharacterMover player;
 
     public void OnTriggerEnter(Collider other)
     {
         Debug.Log("You got the speed");
-        player.speed = 20;
+        player.moveSpeed = 20;
     }
 }

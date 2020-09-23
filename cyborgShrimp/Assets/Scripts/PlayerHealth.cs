@@ -16,7 +16,7 @@ public class PlayerHealth : MonoBehaviour
     
     void Update()
     {
-        if (Input.GetButtonUp("Submit"))
+        if (Input.GetButtonUp("Cancel"))
         {
             currentHealth--;
         }

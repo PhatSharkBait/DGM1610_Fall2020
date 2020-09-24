@@ -6215,6 +6215,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   controller: {fileID: 2088669664}
-  moveSpeed: 3
+  moveSpeed: 5
   gravity: -9.81
-  jumpForce: 30
+  jumpForce: 8

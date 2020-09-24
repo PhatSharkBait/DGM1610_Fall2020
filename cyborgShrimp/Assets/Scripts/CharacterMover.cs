@@ -14,20 +14,21 @@ public class CharacterMover : MonoBehaviour
     void Update()
     {
         var moveSpeedInput = moveSpeed * Input.GetAxis("Horizontal");
-        moveDirection.Set(moveSpeedInput, gravity, 0);
+        moveDirection.Set(moveSpeedInput, yDirection, 0);
 
         yDirection += gravity * Time.deltaTime;
 
-        if (controller.isGrounded)
+        if (controller.isGrounded && moveDirection.y < 0)
         {
             yDirection = -1;
         }
         
-        if (Input.GetButtonDown("Jump"))
+        if (Input.GetButtonDown("Jump") && controller.isGrounded)
         {
             yDirection = jumpForce;
         }
-        
-        controller.Move(moveDirection*Time.deltaTime);
+
+        var movement = moveDirection * Time.deltaTime;
+        controller.Move(movement);
     }
 }

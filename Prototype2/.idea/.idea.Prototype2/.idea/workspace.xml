@@ -20,11 +20,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="17e52a86-c098-4a9a-9f8d-ab43b3d4b037" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../PersonalProject/~$ojectDesignDoc.docx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Prototype2/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Prototype2/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Prototype2/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Prototype2/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Prototype2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Prototype2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Animal_Fox_02.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Animal_Fox_02.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Animal_Horse_Brown.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Animal_Horse_Brown.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Animal_Stag_02.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Animal_Stag_02.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Food_Fish_Cooked.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Food_Fish_Cooked.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Prototype 2.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Prototype 2.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DestroyOutOfBounds.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/DestroyOutOfBounds.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SpawnManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SpawnManager.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,9 +46,10 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/MoveForward.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/DestroyOutOfBounds.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/SpawnManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/SpawnManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/DetectCollisions.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/DestroyOutOfBounds.cs" />
       </list>
     </option>
   </component>
@@ -90,6 +96,7 @@
       <workItem from="1600823466863" duration="676000" />
       <workItem from="1600896338634" duration="1460000" />
       <workItem from="1601003827928" duration="983000" />
+      <workItem from="1601093413034" duration="1056000" />
     </task>
     <servers />
   </component>

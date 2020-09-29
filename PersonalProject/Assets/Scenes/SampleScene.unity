@@ -519,9 +519,7 @@ GameObject:
   - component: {fileID: 479965298}
   - component: {fileID: 479965293}
   - component: {fileID: 479965297}
-  - component: {fileID: 479965299}
   - component: {fileID: 479965300}
-  - component: {fileID: 479965301}
   m_Layer: 8
   m_Name: Player
   m_TagString: Player
@@ -613,7 +611,7 @@ SphereCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 479965292}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: eaa24911b9d5970439251d5607f5146e, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
@@ -631,28 +629,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 227dd4390d2c8c440ab605c8e13fba54, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  controller: {fileID: 479965299}
+  controller: {fileID: 0}
   cam: {fileID: 1010512328}
   playerPhysics: {fileID: 479965293}
   speed: 500
---- !u!143 &479965299
-CharacterController:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 479965292}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Height: 1
-  m_Radius: 0.5
-  m_SlopeLimit: 45
-  m_StepOffset: 0.3
-  m_SkinWidth: 0.08
-  m_MinMoveDistance: 0
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &479965300
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -668,19 +648,6 @@ MonoBehaviour:
   jumpVelocity: 250
   fallMultiplier: 2.5
   shortJumpMultiplier: 2
---- !u!114 &479965301
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 479965292}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c8079a32815a66044b4d24cecb180338, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  playerCollider: {fileID: 0}
 --- !u!1 &614666943
 GameObject:
   m_ObjectHideFlags: 3
@@ -906,7 +873,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1010512327}
-  m_LocalRotation: {x: 0.0997443, y: 0.000000034241154, z: -0.000000003432477, w: 0.9950131}
+  m_LocalRotation: {x: 0.0997443, y: -0.000000034241154, z: 0.000000003432477, w: 0.9950131}
   m_LocalPosition: {x: -0.04, y: 2.0700002, z: -8.06}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -1063,7 +1030,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1041342440}
-  m_LocalRotation: {x: 0.09974429, y: 0.000000017120575, z: -0.000000001716239, w: 0.9950131}
+  m_LocalRotation: {x: 0.09974429, y: -0.000000017120577, z: 0.0000000017162377, w: 0.9950131}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -1521,6 +1488,7 @@ GameObject:
   - component: {fileID: 1489190274}
   - component: {fileID: 1489190273}
   - component: {fileID: 1489190272}
+  - component: {fileID: 1489190276}
   m_Layer: 0
   m_Name: Bumper
   m_TagString: Untagged
@@ -1535,7 +1503,7 @@ CapsuleCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1489190271}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 1c1422606f6bdbc439cb6732728aa816, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   m_Radius: 0.5000001
@@ -1603,6 +1571,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1489190276
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1489190271}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbea9f6040b9cf749a71bf56b0bb82eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1836573405
 GameObject:
   m_ObjectHideFlags: 0

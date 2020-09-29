@@ -8,8 +8,7 @@
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
-          <e p="BallBehaviour.cs" t="Include" />
-          <e p="ColliderTest.cs" t="Include" />
+          <e p="BumperScript.cs" t="Include" />
           <e p="GemBehavior.cs" t="Include" />
           <e p="Jump.cs" t="Include" />
           <e p="ThirdPersonMovement.cs" t="Include" />

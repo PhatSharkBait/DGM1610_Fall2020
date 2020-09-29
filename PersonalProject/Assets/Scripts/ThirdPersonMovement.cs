@@ -10,20 +10,20 @@ public class ThirdPersonMovement : MonoBehaviour
     public Rigidbody playerPhysics;
     
     public float speed = 100f;
-    
 
     void Update()
     {
         //controlled with arrow keys or WASD
-        float horizontal = Input.GetAxisRaw("Horizontal");
-        float vertical = Input.GetAxisRaw("Vertical");
+        var horizontal = Input.GetAxisRaw("Horizontal");
+        var vertical = Input.GetAxisRaw("Vertical");
 
         //movement direction from inputs
         Vector3 direction = playerPhysics.velocity;
         direction.x = horizontal;
         direction.z = vertical;
         
-        if (direction.magnitude >= 0.1f)
+        
+        if (direction.magnitude >= 0.1f && Input.GetAxis("Horizontal") != 0 || direction.magnitude >= 0.1f && Input.GetAxis("Vertical") != 0 )
         {
             //find angle between horizontal and vertical inputs, converted to degrees, adding rotation of the camera 
             float targetAngle = Mathf.Atan2(direction.x, direction.z) * Mathf.Rad2Deg + cam.eulerAngles.y;

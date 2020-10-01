@@ -3,7 +3,6 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using static UnityEngine.Time;
-// using Vector3 = System.Numerics.Vector3;
 
 public class Jump : MonoBehaviour
 {
@@ -12,19 +11,19 @@ public class Jump : MonoBehaviour
     public float shortJumpMultiplier = 2f;
     
     private Rigidbody rb;
-    private Collider collider;
+    private Collider playerCollider;
     private float distToGround;
 
     private void Awake()
     {
         rb = GetComponent<Rigidbody>();
-        collider = GetComponent<Collider>();
+        playerCollider = GetComponent<Collider>();
     }
 
     private void Start()
     {
         //finds bottom most part of collider
-        distToGround = collider.bounds.extents.y;
+        distToGround = playerCollider.bounds.extents.y;
     }
 
     //checks to see if ball is on ground

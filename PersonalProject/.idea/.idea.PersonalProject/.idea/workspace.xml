@@ -20,16 +20,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="efdb7f92-c03c-4f07-b974-912c1abed213" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../CreateChallenge2/.idea/.idea.CreateChallenge2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CreateChallenge2/.idea/.idea.CreateChallenge2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.PersonalProject/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PersonalProject/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PersonalProject/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PersonalProject/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.PersonalProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PersonalProject/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Bumper.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Bumper.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BallBehaviour.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BallBehaviour.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ColliderTest.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BumperScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BumperScript.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/ColliderTest.cs.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Jump.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Jump.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ThirdPersonMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ThirdPersonMovement.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cyborgShrimp/.idea/.idea.cyborgShrimp/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../cyborgShrimp/.idea/.idea.cyborgShrimp/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cyborgShrimp/.idea/.idea.cyborgShrimp/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../cyborgShrimp/.idea/.idea.cyborgShrimp/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cyborgShrimp/.idea/.idea.cyborgShrimp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../cyborgShrimp/.idea/.idea.cyborgShrimp/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cyborgShrimp/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/../cyborgShrimp/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cyborgShrimp/Assets/Scripts/PlayerHealth.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../cyborgShrimp/Assets/Scripts/PlayerHealth.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,8 +54,8 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/ColliderTest.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/BallBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ThirdPersonMovement.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Jump.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/BumperScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Jump.cs" />
       </list>
     </option>
   </component>
@@ -117,6 +119,8 @@
       <workItem from="1600119182228" duration="979000" />
       <workItem from="1600225506934" duration="90000" />
       <workItem from="1601412116055" duration="2866000" />
+      <workItem from="1601585433946" duration="499000" />
+      <workItem from="1601586551428" duration="2363000" />
     </task>
     <servers />
   </component>

@@ -8,11 +8,14 @@
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
+          <e p="Animal.cs" t="Include" />
           <e p="CharacterMover.cs" t="Include" />
+          <e p="Click.cs" t="Include" />
           <e p="MoverScript.cs" t="Include" />
           <e p="MyUnityEvent.cs" t="Include" />
           <e p="PlayerHealth.cs" t="Include" />
           <e p="PowerUp.cs" t="Include" />
+          <e p="Reptile.cs" t="Include" />
           <e p="SpeedPowerUp.cs" t="Include" />
         </e>
       </e>

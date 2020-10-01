@@ -8,7 +8,6 @@ public class PlayerHealth : MonoBehaviour
 {
     public float maxHealth;
     public float currentHealth;
-    public TextMesh hitpointCounter;
     void Start()
     {
         currentHealth = maxHealth;
@@ -25,7 +24,5 @@ public class PlayerHealth : MonoBehaviour
         {
             currentHealth = maxHealth;
         }
-
-        hitpointCounter.text = currentHealth.ToString(CultureInfo.CurrentCulture) + "/" + maxHealth.ToString(CultureInfo.CurrentCulture);
     }
 }

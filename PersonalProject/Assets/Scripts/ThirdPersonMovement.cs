@@ -8,8 +8,8 @@ public class ThirdPersonMovement : MonoBehaviour
     //I watched a video that showed me how to do this. I did my best to understand everything they did an why.
     private Vector3 moveDir;
     public Vector3 forceDir;
-    public float speed = 750;
-    public float speedLimit = 300f;
+    public float speed;
+    public float speedLimit;
 
 
     public CharacterController controller;

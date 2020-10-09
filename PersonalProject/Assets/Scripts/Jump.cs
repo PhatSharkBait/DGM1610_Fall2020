@@ -37,7 +37,7 @@ public class Jump : MonoBehaviour
         //if player is attempting to jump and the player is grounded
         if (Input.GetButtonDown("Jump") && IsGrounded())
         {
-            rb.AddForce(0, jumpVelocity, 0);
+            rb.AddForce(0, jumpVelocity, 0, ForceMode.Impulse);
         }
         
         

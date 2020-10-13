@@ -20,16 +20,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="45a45f81-9a18-43d2-9cd2-cd356d7cc7b3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../PersonalProject/.idea/.idea.PersonalProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PersonalProject/.idea/.idea.PersonalProject/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PersonalProject/Assets/Prefabs/Bumper.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/../PersonalProject/Assets/Prefabs/Bumper.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PersonalProject/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/../PersonalProject/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PersonalProject/Assets/Scripts/BumperScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../PersonalProject/Assets/Scripts/BumperScript.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PersonalProject/Assets/Scripts/ColliderTest.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Prototype4/.idea/.idea.Prototype4/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Prototype4/.idea/.idea.Prototype4/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Prototype4/.idea/.idea.Prototype4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Prototype4/.idea/.idea.Prototype4/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Prototype4/Assets/Scenes/Prototype 4.unity" beforeDir="false" afterPath="$PROJECT_DIR$/../Prototype4/Assets/Scenes/Prototype 4.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Prototype4/ProjectSettings/EditorSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/../Prototype4/ProjectSettings/EditorSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.cyborgShrimp/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.cyborgShrimp/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.cyborgShrimp/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.cyborgShrimp/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.cyborgShrimp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.cyborgShrimp/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerHealth.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerHealth.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PowerUp.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PowerUp.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +37,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/ScriptableObjects/StringData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Reptile.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MonoEvents.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -51,13 +50,16 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerScore.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MyUnityEvent.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MoverScript.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/PowerUp.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SpeedPowerUp.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CharacterMover.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Click.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerHealth.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Animal.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Reptile.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PowerUp.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MonoEvents.cs" />
+        <option value="$PROJECT_DIR$/Assets/ScriptableObjects/FloatData.cs" />
+        <option value="$PROJECT_DIR$/Assets/ScriptableObjects/StringData.cs" />
       </list>
     </option>
   </component>
@@ -77,6 +79,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
@@ -127,6 +130,7 @@
       <workItem from="1600980087483" duration="3270000" />
       <workItem from="1601584841793" duration="1071000" />
       <workItem from="1601585935504" duration="323000" />
+      <workItem from="1602621747671" duration="2631000" />
     </task>
     <servers />
   </component>
@@ -155,6 +159,10 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2558" y="241" key="RollbackChangesDialog/-1920.0.1920.1040/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1598994092968" />
+    <state x="-998" y="85" key="SettingsEditor" timestamp="1602624665307">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-998" y="85" key="SettingsEditor/-1920.0.1920.1040/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1602624665307" />
     <state x="2543" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1598995377577">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>

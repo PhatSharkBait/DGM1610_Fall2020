@@ -7,11 +7,9 @@ using UnityEngine.UIElements;
 
 public class PowerUp : MonoBehaviour
 {
-    public int value;
     public UnityEvent powerUpEvent;
     private void OnTriggerEnter(Collider other)
     {
-        value += 10;
         powerUpEvent.Invoke();
     }
 }

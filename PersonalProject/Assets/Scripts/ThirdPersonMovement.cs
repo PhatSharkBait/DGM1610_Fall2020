@@ -9,7 +9,6 @@ public class ThirdPersonMovement : MonoBehaviour
     private Vector3 moveDir;
     public Vector3 forceDir;
     public float speed;
-    public float speedLimit;
 
 
     public CharacterController controller;
@@ -42,11 +41,5 @@ public class ThirdPersonMovement : MonoBehaviour
             forceDir = moveDir.normalized * (speed * Time.deltaTime);
             playerPhysics.AddForce(forceDir, ForceMode.Acceleration);
         }
-
-        if (forceDir.x > speedLimit || forceDir.z > speedLimit)
-        {
-            playerPhysics.AddForce(-forceDir, ForceMode.Impulse);
-        }
-
     }
 }

@@ -94,9 +94,9 @@ GameObject:
   m_Component:
   - component: {fileID: 6713665246530987979}
   - component: {fileID: 6224091595024448894}
-  - component: {fileID: 6224091595024448895}
   - component: {fileID: 6217583552876414162}
   - component: {fileID: 3118110347216516108}
+  - component: {fileID: 2829245924223137222}
   m_Layer: 0
   m_Name: Gem
   m_TagString: Untagged
@@ -133,18 +133,6 @@ CapsuleCollider:
   m_Height: 1.79
   m_Direction: 1
   m_Center: {x: 0, y: 0.1, z: 0}
---- !u!114 &6224091595024448895
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6224091595024448881}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ade0703d7e921eb4f8268b6df24a18f3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!33 &6217583552876414162
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -192,3 +180,29 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!114 &2829245924223137222
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6224091595024448881}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efd4842bfc823d14688fa672fe8edf06, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  OnTriggerEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 6224091595024448881}
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2

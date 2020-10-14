@@ -9,8 +9,9 @@
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
           <e p="BumperScript.cs" t="Include" />
-          <e p="GemBehavior.cs" t="Include" />
           <e p="Jump.cs" t="Include" />
+          <e p="OnTriggerScript.cs" t="Include" />
+          <e p="StringData.cs" t="Include" />
           <e p="ThirdPersonMovement.cs" t="Include" />
         </e>
       </e>

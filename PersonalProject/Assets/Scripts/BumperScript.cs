@@ -5,17 +5,18 @@ using UnityEngine;
 
 public class BumperScript : MonoBehaviour
 {
-    public float force = 5f;
+    public float force = 15f;
     private Vector3 playerMomentum;
 
     private void OnCollisionEnter(Collision other)
     {
         playerMomentum = other.rigidbody.velocity;
+        
         //reverse object momentum
         var bumpVelocityX = playerMomentum.normalized.x * -force;
         var bumpVelocityZ = playerMomentum.normalized.z * -force;
   
-        other.rigidbody.velocity = new Vector3(bumpVelocityX, playerMomentum.y, bumpVelocityZ);
+        other.rigidbody.AddForce(bumpVelocityX, playerMomentum.y, bumpVelocityZ, ForceMode.Impulse);
         Debug.Log(other.rigidbody.velocity);
     }
 }

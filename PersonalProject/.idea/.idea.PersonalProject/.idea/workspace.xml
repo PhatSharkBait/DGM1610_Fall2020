@@ -20,8 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="efdb7f92-c03c-4f07-b974-912c1abed213" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PersonalProject/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PersonalProject/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.PersonalProject/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PersonalProject/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.PersonalProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PersonalProject/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BumperScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BumperScript.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ThirdPersonMovement.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ThirdPersonMovement.cs.meta" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +40,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/BumperScript.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/EE47BE73-F7EF-409C-A5E5-CE4B121745B7/0c/8ff67625/Component.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/OnTriggerScript.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ThirdPersonMovement.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ScriptableObjects/Cooldown.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -45,12 +49,15 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/ColliderTest.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/BallBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Jump.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/ThirdPersonMovement.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/BumperScript.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/OnTriggerScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/StringUpdater.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/StringData.cs" />
         <option value="$PROJECT_DIR$/Assets/ScriptableObjects/IntData.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ThirdPersonMovement.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/BumperScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/ScriptableObjects/FloatData.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player.cs" />
+        <option value="$PROJECT_DIR$/Assets/ScriptableObjects/Cooldown.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/OnTriggerScript.cs" />
       </list>
     </option>
   </component>
@@ -120,6 +127,8 @@
       <workItem from="1602190800228" duration="1846000" />
       <workItem from="1602711156223" duration="1788000" />
       <workItem from="1602804309620" duration="960000" />
+      <workItem from="1603399188497" duration="420000" />
+      <workItem from="1603399829448" duration="2946000" />
     </task>
     <servers />
   </component>
@@ -153,5 +162,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="411" y="271" key="Vcs.Push.Dialog.v2/-1920.0.1920.1040/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1599417122167" />
+    <state x="712" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1603401257684">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="712" y="235" width="672" height="678" key="search.everywhere.popup/-1920.0.1920.1040/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1603401257684" />
   </component>
 </project>

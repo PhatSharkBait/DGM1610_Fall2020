@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEditor;
 using UnityEngine;
 
-public class ThirdPersonMovement : MonoBehaviour
+public class Player : MonoBehaviour
 {
     //I watched a video that showed me how to do this. I did my best to understand everything they did an why.
     private Vector3 moveDir;
@@ -41,5 +41,16 @@ public class ThirdPersonMovement : MonoBehaviour
             forceDir = moveDir.normalized * (speed * Time.deltaTime);
             playerPhysics.AddForce(forceDir, ForceMode.Acceleration);
         }
+        
+        //destroy ball if below a certain point on the map
+        if (transform.position.y <= -35f)
+        {
+            Destroy(gameObject);
+        }
+    }
+
+    public void updateSpeed(float value)
+    {
+        speed += value;
     }
 }

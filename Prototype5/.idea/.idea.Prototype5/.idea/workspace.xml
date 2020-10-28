@@ -20,16 +20,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2e3464a4-f447-4167-9ee2-ae2531325e12" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Prototype5/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Prototype5/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Prototype5/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Prototype5/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Bad1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Bad1.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Good1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Good1.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Good2.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Good2.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Good3.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Good3.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Prototype 5.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Prototype 5.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Targets.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Targets.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cyborgShrimp/.idea/.idea.cyborgShrimp/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../cyborgShrimp/.idea/.idea.cyborgShrimp/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cyborgShrimp/.idea/.idea.cyborgShrimp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../cyborgShrimp/.idea/.idea.cyborgShrimp/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,8 +44,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Targets.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" />
       </list>
     </option>
   </component>
@@ -92,6 +91,7 @@
       <updated>1603753497652</updated>
       <workItem from="1603753510666" duration="1047000" />
       <workItem from="1603849181337" duration="837000" />
+      <workItem from="1603922751964" duration="1447000" />
     </task>
     <servers />
   </component>

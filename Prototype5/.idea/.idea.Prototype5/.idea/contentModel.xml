@@ -41,6 +41,7 @@
           </e>
         </e>
         <e p="Scripts" t="Include">
+          <e p="DifficultyButton.cs" t="Include" />
           <e p="GameManager.cs" t="Include" />
           <e p="Targets.cs" t="Include" />
         </e>

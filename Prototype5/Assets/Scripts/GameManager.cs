@@ -14,17 +14,20 @@ public class GameManager : MonoBehaviour
     public TextMeshProUGUI gameOverText;
     public Button restartButton;
     public bool gameActive;
+    public GameObject titleScreen;
 
     private float spawnRate = 1.0f;
     private int score;
 
-    private void Start()
+    public void StartGame(int difficulty)
     {
+        spawnRate /= difficulty;
+        titleScreen.gameObject.SetActive(false);
         gameActive = true;
+        score = 0;
         StartCoroutine(SpawnTarget());
         UpdateScore(0);
     }
-
     public void UpdateScore(int scoreToAdd)
     {
         score += scoreToAdd;

@@ -135,7 +135,7 @@ GameObject:
   - component: {fileID: 48511383}
   - component: {fileID: 48511382}
   - component: {fileID: 48511387}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -364,7 +364,7 @@ GameObject:
   - component: {fileID: 176721958}
   - component: {fileID: 176721957}
   - component: {fileID: 176721956}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Coin
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -584,7 +584,7 @@ GameObject:
   - component: {fileID: 605744283}
   - component: {fileID: 605744282}
   - component: {fileID: 605744281}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Dialogue
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -795,7 +795,7 @@ GameObject:
   - component: {fileID: 1096897472}
   - component: {fileID: 1096897471}
   - component: {fileID: 1096897475}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: HealthDamager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1093,8 +1093,8 @@ GameObject:
   - component: {fileID: 1699306320}
   - component: {fileID: 1699306319}
   - component: {fileID: 1699306318}
-  m_Layer: 0
-  m_Name: Cube
+  m_Layer: 24
+  m_Name: Floor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

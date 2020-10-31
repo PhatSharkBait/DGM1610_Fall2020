@@ -8,6 +8,7 @@
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="ScriptableObjects" t="Include">
+          <e p="Collectable.cs" t="Include" />
           <e p="FloatData.cs" t="Include" />
           <e p="StringData.cs" t="Include" />
         </e>
@@ -15,6 +16,7 @@
           <e p="Animal.cs" t="Include" />
           <e p="CharacterMover.cs" t="Include" />
           <e p="Click.cs" t="Include" />
+          <e p="CollectionLoop.cs" t="Include" />
           <e p="Collections.cs" t="Include" />
           <e p="MonoEvents.cs" t="Include" />
           <e p="MoverScript.cs" t="Include" />

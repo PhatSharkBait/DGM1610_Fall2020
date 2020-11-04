@@ -14,14 +14,16 @@ public class Player : MonoBehaviour
     private float rotationSpeed = 10f;
     private Vector3 moveDir;
     private Quaternion rotation;
-    public float rotateValue;
+    private float rotateValue;
+    private bool hasBall;
+    public GameAction kick;
 
     private void Update()
     {
         //look in movement direction
         vertical = Input.GetAxis("Vertical");
         horizontal = Input.GetAxis("Horizontal");
-        Vector3 lookDir = new Vector3(horizontal, 0, vertical);
+        var lookDir = new Vector3(horizontal, 0, vertical);
         
         if (Input.GetAxis("Vertical") !=0 || Input.GetAxis("Horizontal") !=0)
         {
@@ -29,6 +31,11 @@ public class Player : MonoBehaviour
             movePerson(lookDir);
         }
 
+        if (hasBall && Input.GetKeyDown(KeyCode.Space))
+        {
+            kick.action.Invoke();
+            hasBall = false;
+        }
     }
 
     //rotate toward given direction
@@ -44,6 +51,11 @@ public class Player : MonoBehaviour
     {
         Vector3 movement = (moveDir * (Time.deltaTime * moveSpeed));
         transform.position += movement;
+    }
+
+    public void pickUp()
+    {
+        hasBall = true;
     }
 }
 

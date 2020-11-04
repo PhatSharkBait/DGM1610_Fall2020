@@ -11,9 +11,10 @@ public class Player : MonoBehaviour
     private float vertical;
     private float horizontal;
     private float moveSpeed = 10f;
-    private float rotationSpeed = 50f;
+    private float rotationSpeed = 10f;
     private Vector3 moveDir;
     private Quaternion rotation;
+    public float rotateValue;
 
     private void Update()
     {
@@ -30,14 +31,12 @@ public class Player : MonoBehaviour
 
     }
 
-    //rotate in toward given direction
+    //rotate toward given direction
     private void rotatePerson(Vector3 lookDir)
     {
-        var lookAngle = Mathf.Rad2Deg*(Math.Asin(lookDir.x) + Math.Acos(lookDir.z));
-        print(lookAngle);
-        //var qTo = Quaternion.Euler(0, lookAngle, 0);
-        //var lookSpeed = rotationSpeed * Time.deltaTime;
-        //transform.rotation = Quaternion.Slerp(transform.rotation, qTo, lookSpeed);
+        rotateValue = (float)(Mathf.Rad2Deg * (Math.Atan2(lookDir.x, lookDir.z)));
+        var rotateTo = Quaternion.Euler(0, rotateValue, 0);
+        transform.rotation = Quaternion.Lerp(transform.rotation, rotateTo, rotationSpeed * Time.deltaTime);
     }
     
     //move in facing direction
@@ -47,3 +46,5 @@ public class Player : MonoBehaviour
         transform.position += movement;
     }
 }
+
+

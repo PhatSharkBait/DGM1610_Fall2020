@@ -17,6 +17,7 @@ public class Player : MonoBehaviour
     private bool hasBall;
     public GameAction kick;
     private float ballDist = 1.25f;
+    private GameObject ballObj;
     
     private void Update()
     {
@@ -33,7 +34,7 @@ public class Player : MonoBehaviour
 
         if (hasBall && Input.GetKeyDown(KeyCode.Space))
         {
-            kick.action.Invoke();
+            ballObj.GetComponent<Ball>().Kick(gameObject);
             hasBall = false;
         }
     }
@@ -56,10 +57,9 @@ public class Player : MonoBehaviour
     public void pickUp()
     {
         hasBall = true;
-        var ball = transform.GetChild(2);
+        ballObj = transform.GetChild(2).gameObject;
         var ballPos = transform.position + (ballDist*transform.forward);
-        print(ballPos);
-        ball.transform.position = ballPos;
+        ballObj.transform.position = ballPos;
     }
 }
 

@@ -16,10 +16,10 @@ public class Ball : MonoBehaviour
         isPickedUp = true;
         transform.parent = other.transform;
         rb.isKinematic = true;
-        pickUp.action.Invoke();
+        other.GetComponent<Player>().pickUp();
     }
 
-    public void Kick()
+    public void Kick(GameObject kicker)
     {
         if (isPickedUp)
         {

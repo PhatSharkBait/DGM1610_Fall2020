@@ -13,11 +13,11 @@ public class Player : MonoBehaviour
     private float moveSpeed = 10f;
     private float rotationSpeed = 10f;
     private Vector3 moveDir;
-    private Quaternion rotation;
     private float rotateValue;
     private bool hasBall;
     public GameAction kick;
-
+    private float ballDist = 1.25f;
+    
     private void Update()
     {
         //look in movement direction
@@ -56,6 +56,10 @@ public class Player : MonoBehaviour
     public void pickUp()
     {
         hasBall = true;
+        var ball = transform.GetChild(2);
+        var ballPos = transform.position + (ballDist*transform.forward);
+        print(ballPos);
+        ball.transform.position = ballPos;
     }
 }
 

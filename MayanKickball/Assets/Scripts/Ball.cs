@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class Ball : MonoBehaviour
 {
-    public GameAction pickUp;
+    public GameAction newBall;
     public Rigidbody rb;
     private float force = 18f;
     private bool isPickedUp = false;
@@ -29,5 +29,17 @@ public class Ball : MonoBehaviour
             transform.parent = null;
             isPickedUp = false;
         }
+    }
+
+    private void OnCollisionEnter(Collision other)
+    {
+        print(other.gameObject);
+        PickedUp(other.gameObject);
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        newBall.action.Invoke();
+        Destroy(gameObject);
     }
 }

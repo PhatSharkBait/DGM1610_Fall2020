@@ -58,7 +58,8 @@ public class Player : MonoBehaviour
     {
         hasBall = true;
         ballObj = transform.GetChild(2).gameObject;
-        var ballPos = transform.position + (ballDist*transform.forward);
+        var playerTransform = new Vector3(transform.position.x, 0.5f, transform.position.z);
+        var ballPos = playerTransform + (ballDist*transform.forward);
         ballObj.transform.position = ballPos;
     }
 }

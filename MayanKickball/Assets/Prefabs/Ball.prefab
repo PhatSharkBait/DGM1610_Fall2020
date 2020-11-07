@@ -14,8 +14,6 @@ GameObject:
   - component: {fileID: 6022418169708409019}
   - component: {fileID: 6022418169708409012}
   - component: {fileID: 6022418169708409022}
-  - component: {fileID: 6022418169708409023}
-  - component: {fileID: 6022418169708409021}
   m_Layer: 24
   m_Name: Ball
   m_TagString: Untagged
@@ -111,7 +109,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 4
   m_CollisionDetection: 0
 --- !u!114 &6022418169708409022
 MonoBehaviour:
@@ -125,58 +123,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad91333e545fd02409767a1f713691d5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pickUp: {fileID: 11400000, guid: 8a83fd3051caad144b8fe1629d55a32e, type: 2}
+  newBall: {fileID: 11400000, guid: e9c42c87cca17ea4ea02cd95e95bbc9e, type: 2}
   rb: {fileID: 6022418169708409012}
---- !u!114 &6022418169708409023
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6022418169708409013}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aa0878ce927146c4c9e9348d6ac94afc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  collisionEvent:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 6022418169708409022}
-        m_MethodName: PickedUp
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 1
---- !u!114 &6022418169708409021
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6022418169708409013}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6e600b7b1c58fe742aefa59ed5fb664c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  actionObj: {fileID: 11400000, guid: 051d8fa847d9d3449a262b90a7100d6c, type: 2}
-  handlerEvent:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 6022418169708409022}
-        m_MethodName: Kick
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2

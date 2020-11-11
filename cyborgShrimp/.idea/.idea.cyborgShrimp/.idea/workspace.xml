@@ -20,7 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="45a45f81-9a18-43d2-9cd2-cd356d7cc7b3" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.cyborgShrimp/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.cyborgShrimp/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.cyborgShrimp/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.cyborgShrimp/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.cyborgShrimp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.cyborgShrimp/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/newScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/newScene.unity" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +38,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Reptile.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MonoEvents.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/ScriptableObjects/Collectable.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ScriptableObjects/Weapons Switch.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -58,6 +62,9 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Collections.cs" />
         <option value="$PROJECT_DIR$/Assets/ScriptableObjects/Collectable.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CollectionLoop.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GameSwitch.cs" />
+        <option value="$PROJECT_DIR$/Assets/ScriptableObjects/DefensesSwitch.cs" />
+        <option value="$PROJECT_DIR$/Assets/ScriptableObjects/Weapons Switch.cs" />
       </list>
     </option>
   </component>
@@ -131,6 +138,8 @@
       <workItem from="1602621747671" duration="3233000" />
       <workItem from="1603832143131" duration="794000" />
       <workItem from="1604117777903" duration="3201000" />
+      <workItem from="1605044697208" duration="1549000" />
+      <workItem from="1605059186166" duration="819000" />
     </task>
     <servers />
   </component>
@@ -159,10 +168,10 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2558" y="241" key="RollbackChangesDialog/-1920.0.1920.1040/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1598994092968" />
-    <state x="-998" y="85" key="SettingsEditor" timestamp="1602624665307">
+    <state x="-998" y="85" key="SettingsEditor" timestamp="1605044778500">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="-998" y="85" key="SettingsEditor/-1920.0.1920.1040/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1602624665307" />
+    <state x="-998" y="85" key="SettingsEditor/-1920.0.1920.1040/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1605044778500" />
     <state x="599" y="14" width="1356" height="979" key="dock-window-1" timestamp="1604120061022">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

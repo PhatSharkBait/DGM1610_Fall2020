@@ -9,8 +9,11 @@
       <e p="Assets" t="Include">
         <e p="ScriptableObjects" t="Include">
           <e p="Collectable.cs" t="Include" />
+          <e p="DefensesSwitch.cs" t="Include" />
           <e p="FloatData.cs" t="Include" />
+          <e p="GameSwitch.cs" t="Include" />
           <e p="StringData.cs" t="Include" />
+          <e p="Weapons Switch.cs" t="Include" />
         </e>
         <e p="Scripts" t="Include">
           <e p="Animal.cs" t="Include" />

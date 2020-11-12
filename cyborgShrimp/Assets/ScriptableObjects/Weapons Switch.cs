@@ -11,7 +11,10 @@ public class WeaponsSwitch : ScriptableObject
         Pistol,
         Rifle,
         Ak,
-        Grenade
+        Grenade,
+        Shield,
+        Mace,
+        Rocket
     }
 
     public Weapons currentWeapons;
@@ -29,6 +32,12 @@ public class WeaponsSwitch : ScriptableObject
             case Weapons.Ak:
                 break;
             case Weapons.Grenade:
+                break;
+            case Weapons.Shield:
+                break;
+            case Weapons.Mace:
+                break;
+            case Weapons.Rocket:
                 break;
             default:
                 throw new ArgumentOutOfRangeException();

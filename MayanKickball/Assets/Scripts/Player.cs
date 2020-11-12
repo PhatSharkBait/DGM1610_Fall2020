@@ -16,7 +16,6 @@ public class Player : MonoBehaviour
     private float rotateValue;
     private bool hasBall;
     public GameAction kick;
-    private float ballDist = 1.25f;
     private GameObject ballObj;
     
     private void Update()
@@ -30,12 +29,6 @@ public class Player : MonoBehaviour
         {
             rotatePerson(lookDir);
             movePerson(lookDir);
-        }
-
-        if (hasBall && Input.GetKeyDown(KeyCode.Space))
-        {
-            ballObj.GetComponent<Ball>().Kick(gameObject);
-            hasBall = false;
         }
     }
 
@@ -52,15 +45,6 @@ public class Player : MonoBehaviour
     {
         Vector3 movement = (moveDir * (Time.deltaTime * moveSpeed));
         transform.position += movement;
-    }
-
-    public void pickUp()
-    {
-        hasBall = true;
-        ballObj = transform.GetChild(2).gameObject;
-        var playerTransform = new Vector3(transform.position.x, 0.5f, transform.position.z);
-        var ballPos = playerTransform + (ballDist*transform.forward);
-        ballObj.transform.position = ballPos;
     }
 }
 

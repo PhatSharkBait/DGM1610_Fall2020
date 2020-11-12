@@ -16,7 +16,7 @@ public class Ball : MonoBehaviour
         isPickedUp = true;
         transform.parent = other.transform;
         rb.isKinematic = true;
-        other.GetComponent<Player>().pickUp();
+        other.GetComponent<BallHandler>().pickUp();
     }
 
     public void Kick(GameObject kicker)
@@ -33,8 +33,15 @@ public class Ball : MonoBehaviour
 
     private void OnCollisionEnter(Collision other)
     {
-        print(other.gameObject);
-        PickedUp(other.gameObject);
+        if (!isPickedUp)
+        {
+            PickedUp(other.gameObject);
+        }
+        else
+        {
+            transform.parent = null;
+            PickedUp(other.gameObject);
+        }
     }
 
     private void OnTriggerEnter(Collider other)

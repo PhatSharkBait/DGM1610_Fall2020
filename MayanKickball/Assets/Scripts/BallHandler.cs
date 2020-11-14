@@ -8,11 +8,18 @@ public class BallHandler : MonoBehaviour
     public GameObject currentBall;
     public bool hasBall;
     private float ballDist = 1.35f;
-
+    public GameObject manager;
+    private SpawnManager _spawnManager;
 
     private void Start()
     {
-        Action<GameObject> changeBall = ChangeBall;
+        _spawnManager = manager.gameObject.GetComponent<SpawnManager>();
+        ChangeBall();
+    }
+    
+    public void ChangeBall()
+    {
+        currentBall = _spawnManager.currentBall;
     }
 
 
@@ -28,14 +35,8 @@ public class BallHandler : MonoBehaviour
     public void pickUp()
     {
         hasBall = true;
-        currentBall = transform.GetChild(2).gameObject;
         var playerTransform = new Vector3(transform.position.x, 0.5f, transform.position.z);
         var ballPos = playerTransform + (ballDist*transform.forward);
         currentBall.transform.position = ballPos;
-    }
-
-    public void ChangeBall(GameObject newBall)
-    {
-        currentBall = newBall;
     }
 }

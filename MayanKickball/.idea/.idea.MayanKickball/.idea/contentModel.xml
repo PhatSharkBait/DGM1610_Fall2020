@@ -17,7 +17,6 @@
           <e p="BallHandler.cs" t="Include" />
           <e p="GameAction.cs" t="Include" />
           <e p="GameActionHandler.cs" t="Include" />
-          <e p="GameActionParameter.cs" t="Include" />
           <e p="MonoEvents.cs" t="Include" />
           <e p="OnCollisionEvent.cs" t="Include" />
           <e p="OnTriggerEvent.cs" t="Include" />

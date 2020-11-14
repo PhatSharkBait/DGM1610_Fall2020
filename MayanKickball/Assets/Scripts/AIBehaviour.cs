@@ -8,27 +8,32 @@ using UnityEngine.AI;
 
 public class AIBehaviour : MonoBehaviour
 {
-   private NavMeshAgent agent;
+   private NavMeshAgent _agent;
    public Transform goal;
-   public Transform ball;
+   public GameObject ball;
    private BallHandler _ballHandler;
 
    private void Start()
    {
-      agent = GetComponent<NavMeshAgent>();
+      ball = gameObject.GetComponent<BallHandler>().currentBall;
+      _agent = GetComponent<NavMeshAgent>();
       _ballHandler = GetComponent<BallHandler>();
+   }
+   public void ChangeBall()
+   {
+      ball = _ballHandler.currentBall;
    }
 
    private void Update()
    {
       if (!_ballHandler.hasBall)
       {
-         agent.destination = ball.position;
+         _agent.destination = ball.transform.position;
       }
 
       if (_ballHandler.hasBall)
       {
-         agent.destination = goal.position;
+         _agent.destination = goal.position;
       }
    }
 }

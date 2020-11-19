@@ -27,7 +27,7 @@ public class BallHandler : MonoBehaviour
     {
         if (hasBall && Input.GetKeyDown(KeyCode.Space))
         {
-            currentBall.GetComponent<Ball>().Kick(gameObject);
+            currentBall.GetComponent<Ball>().Kick();
             hasBall = false;
         }
     }

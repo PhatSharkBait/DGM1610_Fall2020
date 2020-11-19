@@ -19,7 +19,7 @@ public class Ball : MonoBehaviour
         other.GetComponent<BallHandler>().pickUp();
     }
 
-    public void Kick(GameObject kicker)
+    public void Kick()
     {
         if (isPickedUp)
         {
@@ -47,6 +47,7 @@ public class Ball : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         newBall.action.Invoke();
+        isPickedUp = false;
         Destroy(gameObject);
     }
 }

@@ -13,10 +13,12 @@ public class Ball : MonoBehaviour
 
     public void PickedUp(GameObject other)
     {
-        isPickedUp = true;
-        transform.parent = other.transform;
-        rb.isKinematic = true;
-        other.GetComponent<BallHandler>().pickUp();
+        if (other.gameObject.layer != 24) {
+            isPickedUp = true;
+            transform.parent = other.transform;
+            rb.isKinematic = true;
+            other.GetComponent<BallHandler>().pickUp();
+        }
     }
 
     public void Kick()

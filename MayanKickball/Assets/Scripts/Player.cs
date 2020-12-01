@@ -15,9 +15,13 @@ public class Player : MonoBehaviour
     private Vector3 moveDir;
     private float rotateValue;
     private bool hasBall;
-    public GameAction kick;
     private GameObject ballObj;
-    
+    private CharacterController controller;
+
+    private void Start() {
+        controller = gameObject.GetComponent<CharacterController>();
+    }
+
     private void Update()
     {
         //look in movement direction
@@ -44,7 +48,7 @@ public class Player : MonoBehaviour
     private void movePerson(Vector3 moveDir)
     {
         Vector3 movement = (moveDir * (Time.deltaTime * moveSpeed));
-        transform.position += movement;
+        controller.Move(movement);
     }
 }
 

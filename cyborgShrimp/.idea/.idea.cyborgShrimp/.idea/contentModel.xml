@@ -27,6 +27,7 @@
           <e p="PlayerHealth.cs" t="Include" />
           <e p="PowerUp.cs" t="Include" />
           <e p="Reptile.cs" t="Include" />
+          <e p="SnapToPlatform.cs" t="Include" />
           <e p="SpeedPowerUp.cs" t="Include" />
         </e>
       </e>

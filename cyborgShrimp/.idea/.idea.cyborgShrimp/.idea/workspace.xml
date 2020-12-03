@@ -20,8 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="45a45f81-9a18-43d2-9cd2-cd356d7cc7b3" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.cyborgShrimp/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.cyborgShrimp/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.cyborgShrimp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.cyborgShrimp/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ScriptableObjects/Weapons Switch.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ScriptableObjects/Weapons Switch.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Anims/MovePlatform.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Anims/MovePlatform.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Anims/PlatformController.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Anims/PlatformController.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/newScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/newScene.unity" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,6 +66,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/GameSwitch.cs" />
         <option value="$PROJECT_DIR$/Assets/ScriptableObjects/DefensesSwitch.cs" />
         <option value="$PROJECT_DIR$/Assets/ScriptableObjects/Weapons Switch.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/SnapToPlatform.cs" />
       </list>
     </option>
   </component>
@@ -139,6 +143,7 @@
       <workItem from="1605044697208" duration="1549000" />
       <workItem from="1605059186166" duration="819000" />
       <workItem from="1605148608938" duration="630000" />
+      <workItem from="1606967191809" duration="119000" />
     </task>
     <servers />
   </component>

@@ -1947,6 +1947,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4847fb30616a32b428b13575f54919dd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  hasBall: 0
+  isCooledDown: 1
 --- !u!143 &1154956548
 CharacterController:
   m_ObjectHideFlags: 0

@@ -14,9 +14,12 @@ public class Player : MonoBehaviour
     private float rotationSpeed = 10f;
     private Vector3 moveDir;
     private float rotateValue;
-    private bool hasBall;
+    public bool hasBall;
     private GameObject ballObj;
     private CharacterController controller;
+    private float dashAmount = 3f;
+    public bool isCooledDown = true;
+    private float dashCooldownAmount = 2f;
 
     private void Start() {
         controller = gameObject.GetComponent<CharacterController>();
@@ -34,6 +37,12 @@ public class Player : MonoBehaviour
             rotatePerson(lookDir);
             movePerson(lookDir);
         }
+
+        if (hasBall == false && Input.GetButtonDown("Jump") && isCooledDown) {
+            controller.Move(gameObject.transform.forward*dashAmount);
+            isCooledDown = false;
+            StartCoroutine(CoolDown(dashCooldownAmount));
+        }
     }
 
     //rotate toward given direction
@@ -49,6 +58,12 @@ public class Player : MonoBehaviour
     {
         Vector3 movement = (moveDir * (Time.deltaTime * moveSpeed));
         controller.Move(movement);
+    }
+
+    private IEnumerator CoolDown(float time) {
+
+       yield return new WaitForSeconds(time);
+       isCooledDown = true;
     }
 }
 

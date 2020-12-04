@@ -9,7 +9,11 @@ public class Ball : MonoBehaviour
     public Rigidbody rb;
     private float force = 18f;
     private bool isPickedUp = false;
-    
+
+    private void Start() {
+        Player playerScript = gameObject.GetComponent<Player>();
+    }
+
 
     public void PickedUp(GameObject other)
     {

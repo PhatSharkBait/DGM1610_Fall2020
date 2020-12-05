@@ -21,8 +21,6 @@
   <component name="ChangeListManager">
     <list default="true" id="6679e367-f414-41f0-b9b9-b3a13661bcef" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MayanKickball/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MayanKickball/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Ball.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Ball.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BallHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BallHandler.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,9 +57,9 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/SpawnManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AIBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CoroutineEvents.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Player.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Ball.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/BallHandler.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player.cs" />
       </list>
     </option>
   </component>
@@ -131,6 +129,7 @@
       <workItem from="1606799038365" duration="54000" />
       <workItem from="1606799146975" duration="1956000" />
       <workItem from="1607044506290" duration="1977000" />
+      <workItem from="1607146596722" duration="1555000" />
     </task>
     <servers />
   </component>

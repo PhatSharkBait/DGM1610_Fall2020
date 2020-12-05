@@ -10,19 +10,19 @@ public class Player : MonoBehaviour
 {
     private float vertical;
     private float horizontal;
-    private float moveSpeed = 10f;
+    public float moveSpeed = 680f;
     private float rotationSpeed = 10f;
     private Vector3 moveDir;
     private float rotateValue;
     public bool hasBall;
     private GameObject ballObj;
-    private CharacterController controller;
-    private float dashAmount = 3f;
+    private Rigidbody _rb;
+    private float dashAmount = 7f;
     public bool isCooledDown = true;
     private float dashCooldownAmount = 2f;
 
     private void Start() {
-        controller = gameObject.GetComponent<CharacterController>();
+        _rb = GetComponent<Rigidbody>();
     }
 
     private void Update()
@@ -39,9 +39,7 @@ public class Player : MonoBehaviour
         }
 
         if (hasBall == false && Input.GetButtonDown("Jump") && isCooledDown) {
-            controller.Move(gameObject.transform.forward*dashAmount);
-            isCooledDown = false;
-            StartCoroutine(CoolDown(dashCooldownAmount));
+            Dash();
         }
     }
 
@@ -57,13 +55,19 @@ public class Player : MonoBehaviour
     private void movePerson(Vector3 moveDir)
     {
         Vector3 movement = (moveDir * (Time.deltaTime * moveSpeed));
-        controller.Move(movement);
+        _rb.AddForce(movement);
     }
 
     private IEnumerator CoolDown(float time) {
 
        yield return new WaitForSeconds(time);
        isCooledDown = true;
+    }
+
+    private void Dash() {
+        _rb.AddForce(gameObject.transform.forward*dashAmount, ForceMode.Impulse);
+        isCooledDown = false;
+        StartCoroutine(CoolDown(dashCooldownAmount));
     }
 }
 

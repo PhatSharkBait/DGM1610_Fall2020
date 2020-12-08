@@ -21,6 +21,7 @@
           <e p="Click.cs" t="Include" />
           <e p="CollectionLoop.cs" t="Include" />
           <e p="Collections.cs" t="Include" />
+          <e p="ForEachScript.cs" t="Include" />
           <e p="MonoEvents.cs" t="Include" />
           <e p="MoverScript.cs" t="Include" />
           <e p="MyUnityEvent.cs" t="Include" />

@@ -22,9 +22,10 @@
     <list default="true" id="45a45f81-9a18-43d2-9cd2-cd356d7cc7b3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.cyborgShrimp/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.cyborgShrimp/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.cyborgShrimp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.cyborgShrimp/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Anims/MovePlatform.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Anims/MovePlatform.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Anims/PlatformController.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Anims/PlatformController.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/newScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/newScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ListsAndLoops.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ListsAndLoops.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/interactions.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/interactions.unity.meta" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +36,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ForEachScript.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/ScriptableObjects/StringData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Reptile.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MonoEvents.cs" root0="FORCE_HIGHLIGHTING" />
@@ -67,6 +69,7 @@
         <option value="$PROJECT_DIR$/Assets/ScriptableObjects/DefensesSwitch.cs" />
         <option value="$PROJECT_DIR$/Assets/ScriptableObjects/Weapons Switch.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SnapToPlatform.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ForEachScript.cs" />
       </list>
     </option>
   </component>
@@ -144,6 +147,7 @@
       <workItem from="1605059186166" duration="819000" />
       <workItem from="1605148608938" duration="630000" />
       <workItem from="1606967191809" duration="119000" />
+      <workItem from="1607466942409" duration="299000" />
     </task>
     <servers />
   </component>

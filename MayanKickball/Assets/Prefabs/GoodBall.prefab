@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 6022418169708409019}
   - component: {fileID: 6022418169708409012}
   - component: {fileID: 6022418169708409022}
-  m_Layer: 24
+  m_Layer: 27
   m_Name: GoodBall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -89,7 +89,7 @@ SphereCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6022418169708409013}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: d40014306772ee840bd6a940056f1d79, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2

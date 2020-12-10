@@ -50,7 +50,7 @@ public class Ball : MonoBehaviour
         }
     }
 
-    private void OnTriggerEnter(Collider other)
+    public void Score()
     {
         newBall.action.Invoke();
         isPickedUp = false;

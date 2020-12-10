@@ -20,8 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6679e367-f414-41f0-b9b9-b3a13661bcef" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.MayanKickball/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MayanKickball/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MayanKickball/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MayanKickball/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/GoodBall.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/GoodBall.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Ball.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Ball.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/OnTriggerEvent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/OnTriggerEvent.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cyborgShrimp/.idea/.idea.cyborgShrimp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../cyborgShrimp/.idea/.idea.cyborgShrimp/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +53,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/OnCollisionEvent.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/BallMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GameActionHandler.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/OnTriggerEvent.cs" />
         <option value="$PROJECT_DIR$/Assets/ScriptableObjects/StringData.cs" />
         <option value="$PROJECT_DIR$/Assets/ScriptableObjects/FloatData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MonoEvents.cs" />
@@ -57,9 +60,11 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/SpawnManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AIBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CoroutineEvents.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Ball.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/BallHandler.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/OnTriggerEvent.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Ball.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GoalScript.cs" />
       </list>
     </option>
   </component>
@@ -130,6 +135,8 @@
       <workItem from="1606799146975" duration="1956000" />
       <workItem from="1607044506290" duration="1977000" />
       <workItem from="1607146596722" duration="1555000" />
+      <workItem from="1607636956658" duration="240000" />
+      <workItem from="1607637221475" duration="1265000" />
     </task>
     <servers />
   </component>

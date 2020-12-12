@@ -1,13 +1,19 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
+using UnityEditor;
 using UnityEngine;
 
-public class GoalScript : MonoBehaviour
-{
+public class GoalScript : MonoBehaviour {
+
+    public FloatData score;
+    public TextMeshProUGUI targetText;
+
     private void OnCollisionEnter(Collision other) {
         if (other.gameObject.layer == 27) {
             other.gameObject.GetComponent<Ball>().Score();
+            AddPoint(1);
         }
 
         if (other.gameObject.layer == 8 || other.gameObject.layer == 16) {
@@ -17,4 +23,10 @@ public class GoalScript : MonoBehaviour
             }
         }
     }
+
+    private void AddPoint(float value) {
+        score.UpdateValue(value);
+        score.DisplayNumber(targetText);
+    }
+    
 }

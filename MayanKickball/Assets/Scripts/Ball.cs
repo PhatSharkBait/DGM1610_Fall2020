@@ -9,9 +9,11 @@ public class Ball : MonoBehaviour
     public Rigidbody rb;
     private float force = 18f;
     private bool isPickedUp = false;
+    private ParticleSystem explosion;
 
     private void Start() {
         Player playerScript = gameObject.GetComponent<Player>();
+        explosion = gameObject.GetComponent<ParticleSystem>();
     }
 
 
@@ -54,6 +56,7 @@ public class Ball : MonoBehaviour
     {
         newBall.action.Invoke();
         isPickedUp = false;
+        explosion.Play();
         Destroy(gameObject);
     }
 }

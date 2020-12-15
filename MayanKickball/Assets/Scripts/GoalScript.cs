@@ -9,10 +9,16 @@ public class GoalScript : MonoBehaviour {
 
     public FloatData score;
     public TextMeshProUGUI targetText;
+    private ParticleSystem explosion;
+
+    private void Start() {
+        explosion = GetComponent<ParticleSystem>();
+    }
 
     private void OnCollisionEnter(Collision other) {
         if (other.gameObject.layer == 27) {
             other.gameObject.GetComponent<Ball>().Score();
+            explosion.Play();
             AddPoint(1);
         }
 
